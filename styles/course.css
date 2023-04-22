@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  line-height: 1.25;
+  font-weight: 400;
+  color: rgb(80, 78, 78);
+  background-color: #f1f3f5;
+  min-height: 100vh;
+  position: relative;
+  /* background-image: linear-gradient(#f1f3f5, #ced4da); */
+  background-image: linear-gradient(#f8f9fa, #fff);
+}
+
+.container {
+  position: absolute;
+  width: 40rem;
+  height: 46rem;
+  padding: 2.2rem 2.8rem;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #e7f5ff;
+  background-image: linear-gradient(to right bottom, #fff, #eff7fc);
+  border: 1px solid rgba(68, 68, 68, 0.683);
+  box-shadow: 0 5px 15px rgba(139, 136, 136, 0.4);
+  border-radius: 5px;
+}
+
+header {
+  margin-bottom: 6.8rem;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 2.4rem;
+}
+.course-title-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5.8rem;
+}
+
+a:link,
+a:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #1098ad;
+  transition: all 0.3s;
+  padding-bottom: 2px;
+  border-bottom: 1px solid currentColor;
+}
+
+a:hover,
+a:active {
+  color: #0b7285;
+  border-bottom: 1px solid transparent;
+}
